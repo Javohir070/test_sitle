@@ -1,0 +1,33 @@
+.path-wrapper {
+  position: relative;
+  padding: 30px 0px 20px 0px;
+  margin-bottom: 15px;
+  background-color: #0fa89d;
+}
+.path-wrapper h1 {
+  font-size: 26px;
+  color: white;
+}
+.path-wrapper p {
+  color: #666;
+}
+
+.text-more-info {
+  text-align: justify;
+  font-size: 22px;
+  line-height: 30px;
+}
+.text-more-info img {
+  display: block;
+  margin: 0 auto;
+}
+.text-more-info ul li {
+  font-family: var(--fontFemily);
+}
+.text-more-info ul {
+  font-family: var(--fontFemily);
+}
+.text-more-info ul h1 {
+  padding-left: 20px;
+  font-size: 26px;
+}
