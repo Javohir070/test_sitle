@@ -23,8 +23,7 @@ const Lectures = () => {
       <Container>
         <Container.Right>
           <Container.Title>
-          ТЕОРЕТИЧЕСКИЕ ОСНОВЫ ИНФОРМАТИКИ ЛЕКЦИОННЫЙ КУРС
-             ПРЕДМЕТЫ
+          Безопасность жизнедеятельности
           </Container.Title>
           {lectures.map((e, i) => {
             return (

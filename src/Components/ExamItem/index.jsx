@@ -35,7 +35,7 @@ const ExamItem = ({ data }) => {
           ? "Промежуточный контроль"
           : data.exam_type === "final"
           ? "Окончательный контроль"
-          : "Текущиe контроль"}
+          : "Текущий контроль"}
       </Container.Type>
       <Container.Info>
         <div>
@@ -62,7 +62,7 @@ const ExamItem = ({ data }) => {
             )
           }
         >
-         Начинать <FontAwesomeIcon icon={faArrowRight} />
+         Начать <FontAwesomeIcon icon={faArrowRight} />
         </Container.Btn>
       )}
     </Container>

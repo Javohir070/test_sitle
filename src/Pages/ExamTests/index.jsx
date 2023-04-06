@@ -36,13 +36,12 @@ const ExamTest = () => {
         Назад
       </Container.Back>
       <Container.Title>
-      Для вас предоставлены {" "}
+      тесты текущего  {" "}
         {params.id === "intermediate"
           ? "Средний"
           : params.id === "current"
-          ? "текущий"
+          ? "контроля"
           : "Финал"}{" "}
-        контрольные тесты
       </Container.Title>
       <Container.Wrap>
         {examList.length &&

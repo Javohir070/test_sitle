@@ -61,7 +61,7 @@ const Navbar = () => {
           <div className="head-navLink">
             <ul>
               <li>
-                <a href="/">главный</a>
+                <a href="/">главная</a>
               </li>
               <li>
                 <a href="/lectures">Лекции</a>

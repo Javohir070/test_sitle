@@ -118,6 +118,10 @@ h1 {
   color: black !important;
   margin-left: 20px;
 }
+.cuBlIT div span {
+  color: black !important;
+  margin-left: 20px;
+}
 @keyframes diogoAni {
   0% {
     -webkit-transform: translateX(-20px);
