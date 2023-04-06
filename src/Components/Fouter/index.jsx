@@ -5,7 +5,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FaTelegram, FaYoutube } from "react-icons/fa";
 import { AiOutlineInstagram, AiOutlineFacebook } from "react-icons/ai";
 import { Container } from "./style";
-import icon from "../../Assets/Img/Icon.png";
+// import icon from "../../Assets/Img/Icon.png";
 
 function Fouter() {
   return (

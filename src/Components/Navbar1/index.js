@@ -1,7 +1,7 @@
 import React from "react";
 import menuIcons from "../../Assets/Icons/menu-icons-2.png";
 import closeIcons from "../../Assets/Icons/close-icon-47.png";
-import icon from "../../Assets/Img/Icon.png";
+// import icon from "../../Assets/Img/Icon.png";
 import "./style.css";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
