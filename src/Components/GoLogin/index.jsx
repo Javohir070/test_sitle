@@ -14,7 +14,7 @@ const GoLogin = () => {
       Ошибка <FontAwesomeIcon icon={faTriangleExclamation} />{" "}
       </span>
       <h1>Пожалуйста, перейдите в окно входа</h1>
-      <div onClick={() => navigate("/sign-in")}>Входить</div>
+      <div onClick={() => navigate("/sign-in")}>Войти</div>
     </Container>
   );
 };

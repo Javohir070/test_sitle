@@ -113,11 +113,11 @@ const StudentExam = () => {
         <Container.Title>Название экзамена: {examTest.title}</Container.Title>
         <Container.Time>
           <Container.Type>
-            Turi:{" "}
+            Тип:{" "}
             {examTest.exam_type === "intermediate"
               ? "Промежуточный контроль"
               : examTest.exam_type === "current"
-              ? "Текущиe контроль"
+              ? "Текущий контроль"
               : "Окончательный контроль"}
           </Container.Type>
         </Container.Time>
@@ -126,7 +126,7 @@ const StudentExam = () => {
         <Container.Wrap>
           <Container.Questions>
             <Container.Title>
-              {showQuestion + 1 + "-savol. "}
+              {showQuestion + 1 + "-Bопрос. "}
               <span>{examTest.questions[showQuestion].text}</span>
             </Container.Title>
             {examTest.questions[showQuestion].image ? (
