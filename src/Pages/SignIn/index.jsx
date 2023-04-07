@@ -36,7 +36,7 @@ const SignIn = () => {
       </Left>
       <Right>
         <Wrap>
-          <Title>Входить</Title>
+          <Title>Входить </Title>
           <Right.Message>{message && message}</Right.Message>
           <Right.Wrap>
             <Right.Title>Электронная почта</Right.Title>
@@ -60,7 +60,7 @@ const SignIn = () => {
               placeholder="Пароль..."
             />
           </Right.Wrap>
-          <Right.Btn onClick={login}>Входить</Right.Btn>
+          <Right.Btn onClick={login}>Войти</Right.Btn>
           <Right.Link>
           Если у вас нет учетной записи{" "}
             <Right.Span
@@ -68,9 +68,8 @@ const SignIn = () => {
                 navigate("/register");
               }}
             >
-             Постановка на учет
+             Постановка на учет орнига Регистрация 
             </Right.Span>{" "}
-            подойти к окну
           </Right.Link>
         </Wrap>
       </Right>

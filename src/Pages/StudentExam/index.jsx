@@ -126,7 +126,7 @@ const StudentExam = () => {
         <Container.Wrap>
           <Container.Questions>
             <Container.Title>
-              {showQuestion + 1 + "-savol. "}
+              {showQuestion + 1 + "-Bопрос. "}
               <span>{examTest.questions[showQuestion].text}</span>
             </Container.Title>
             {examTest.questions[showQuestion].image ? (
