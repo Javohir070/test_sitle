@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faUniversity } from "@fortawesome/free-solid-svg-icons";
 import { faFile } from "@fortawesome/free-regular-svg-icons";
-import Servic1 from "../Assets/Img/our-services/pic1.jpg";
-import Servic2 from "../Assets/Img/our-services/pic2.jpg";
-import Servic3 from "../Assets/Img/our-services/pic3.jpg";
+import Servic1 from "../Assets/Img/our-services/21.jpg";
+import Servic2 from "../Assets/Img/our-services/22.jpg";
+import Servic3 from "../Assets/Img/our-services/23.jpg";
 
 export const planCardData = [
   {

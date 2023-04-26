@@ -24,7 +24,7 @@ function Contact() {
                     </div>
                     <div className="contact-text">
                       <h6>Телефон</h6>
-                      <p>+99870 716-68-05</p>
+                      <p>+99897 764-11-23</p>
                     </div>
                   </div>
                 </div>
@@ -35,7 +35,7 @@ function Contact() {
                     </div>
                     <div className="contact-text">
                       <h6>Электронная почта</h6>
-                      <p>info@tuit.uz</p>
+                      <p>borisova@tuit.uz</p>
                     </div>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ function Contact() {
                   </div>
                   <div className="contact-text">
                     <h6>Телеграмма</h6>
-                    <p>t.me/tvchdpi2017</p>
+                    <p>t.me/elenfoxx</p>
                   </div>
                 </div>
               </div>
