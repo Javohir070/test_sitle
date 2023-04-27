@@ -48,7 +48,7 @@ function Contact() {
                   <div className="contact-text">
                     <h6>Адрес</h6>
                     <p>
-                    Ташкент 100084, улица Шох Амира Темура дом 108{" "}
+                    Ташкент 100084, улица  Амира Темура дом 108{" "}
                     </p>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ function Contact() {
                     <FaTelegram className="contact-i" />
                   </div>
                   <div className="contact-text">
-                    <h6>Телеграмма</h6>
+                    <h6>Телеграмм</h6>
                     <p>t.me/elenfoxx</p>
                   </div>
                 </div>

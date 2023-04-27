@@ -66,11 +66,11 @@ function MainBanner() {
                   {/* <p data-swiper-parallax="-50%">
                   Хорошее образование, чтобы быть хорошим
                   </p> */}
-                  <h3 data-swiper-parallax="-40%">Оказание первой доврачебной помощи 
+                  <h3 data-swiper-parallax="-40%">Безопасность жизнедеятельности 
              </h3>
-                  <h3 data-swiper-parallax="-30%">
+                  {/* <h3 data-swiper-parallax="-30%">
              пострадавшему от действия тока
-                  </h3>
+                  </h3> */}
                   {/* <p>Образование — учитесь у разработчиков</p> */}
                   <div className="swiper-btn" data-swiper-parallax="-20%">
                     
@@ -86,11 +86,11 @@ function MainBanner() {
                   {/* <p data-swiper-parallax="-50%">
                   Хорошее образование, чтобы быть хорошим
                   </p> */}
-                  <h3 data-swiper-parallax="-40%">Оказание первой доврачебной помощи
+                  <h3 data-swiper-parallax="-40%">Безопасность жизнедеятельности
              </h3>
-                  <h3 data-swiper-parallax="-30%">
+                  {/* <h3 data-swiper-parallax="-30%">
              пострадавшему от действия тока
-                  </h3>
+                  </h3> */}
                   <div className="swiper-btn" data-swiper-parallax="-20%">
            
                   </div>
@@ -105,12 +105,12 @@ function MainBanner() {
                   {/* <p data-swiper-parallax="-50%">
                   Хорошее образование, чтобы быть хорошим
                   </p> */}
-                  <h3 data-swiper-parallax="-40%">Оказание первой доврачебной помощи
+                  <h3 data-swiper-parallax="-40%">Безопасность жизнедеятельности
              </h3>
-             <h3 data-swiper-parallax="-40%">пострадавшему от действия тока
-             </h3>
+             {/* <h3 data-swiper-parallax="-40%">пострадавшему от действия тока
+             </h3> */}
                   {/* <p data-swiper-parallax="-30%">
-                  Оказание первой доврачебной помощи
+                  
              пострадавшему от действия тока
                   </p>  */}
                    {/* <p>Образование — учитесь у разработчиков</p> */}
