@@ -70,7 +70,7 @@ const Navbar = () => {
                 <a href="/practices">Amaliyotlar</a>
               </li> */}
               <li>
-                <a href="/student/exams-list/current">Tест</a>
+                <a href="/student/exams-list/current">Кейс</a>
               </li>
               {/* <li>
                 <span onClick={() => setIsDropDown(!isDropDown)}>

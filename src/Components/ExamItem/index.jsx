@@ -35,7 +35,7 @@ const ExamItem = ({ data }) => {
           ? "Промежуточный контроль"
           : data.exam_type === "final"
           ? "Окончательный контроль"
-          : "Текущий контроль"}
+          : "Ситуационный кейс"}
       </Container.Type>
       <Container.Info>
         <div>

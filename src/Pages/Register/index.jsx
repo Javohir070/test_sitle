@@ -139,7 +139,7 @@ const Register = () => {
               placeholder="Пароль..."
             />
           </Right.Wrap>
-          <Right.Btn onClick={login}>Входить</Right.Btn>
+          <Right.Btn onClick={login}>Войти</Right.Btn>
         </Wrap>
       </Right>
     </Container>
