@@ -64,11 +64,11 @@ const Navbar = () => {
                 <a href="/">главная</a>
               </li>
               <li>
-                <a href="/lectures">Лекции</a>
+                <a href="/lectures">Описание кейсов</a>
               </li>
-              {/* <li>
-                <a href="/practices">Amaliyotlar</a>
-              </li> */}
+              <li>
+                <a href="/practices"> Теоретические материалы к кейсам</a>
+              </li>
               <li>
                 <a href="/student/exams-list/current">Кейс</a>
               </li>
