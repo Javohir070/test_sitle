@@ -29,6 +29,9 @@ body {
   --border: 2px solid #0d5ef4;
   --transition: all 0.3s ease-out;
 }
+.guZyWl div span{
+  color: black !important;
+}
 
 h1 {
   margin: 0;
