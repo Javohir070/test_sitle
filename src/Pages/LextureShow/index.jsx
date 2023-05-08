@@ -32,7 +32,7 @@ const LectureShow = () => {
     <Loading />
   ) : (
     <Container>
-      <Container.Title>Лекция: {lecture.title}</Container.Title>
+      <Container.Title>{lecture.title}</Container.Title>
       <div className="container">
         <div dangerouslySetInnerHTML={{ __html: lecture?.text }} />
       </div>
