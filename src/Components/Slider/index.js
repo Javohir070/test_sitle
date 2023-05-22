@@ -66,7 +66,7 @@ function MainBanner() {
                   {/* <p data-swiper-parallax="-50%">
                   Хорошее образование, чтобы быть хорошим
                   </p> */}
-                  <h3 data-swiper-parallax="-40%">Интерактивные кейсы для изучения курса 
+                  <h3 data-swiper-parallax="-40%" >Интерактивные кейсы для изучения курса 
                   Безопасность жизнедеятельности 
              </h3>
                   {/* <h3 data-swiper-parallax="-30%">
