@@ -14,7 +14,7 @@ const ExamItem = ({ data }) => {
       } else alert("Пожалуйста, выполните выбранное тестовое задание");
     } else {
       const agreement = window.confirm(
-        "Хотите приступить к тесту? На задание отводится 60 минут"
+        "Хотите приступить к тесту? На задание отводится 10 минут"
       );
       if (agreement) {
         localStorage.setItem("choused", "true");
