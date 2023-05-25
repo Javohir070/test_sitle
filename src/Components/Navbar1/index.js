@@ -64,10 +64,10 @@ const Navbar = () => {
                 <a href="/">главная</a>
               </li>
               <li>
-                <a href="/lectures">Описание кейсов</a>
+                <a href="/lectures">Описание интерактивных кейсов</a>
               </li>
               <li>
-                <a href="/practices"> Теоретические материалы к кейсам</a>
+                <a href="/practices"> Теоретические материалы к интерактивным кейсам</a>
               </li>
               <li>
                 <a href="/student/exams-list/current"> Интерактивное выполнение кейса</a>

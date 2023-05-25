@@ -12,6 +12,8 @@ const ExamTest = () => {
   const [isLoading, setIsLoading] = useState(true);
   const navigate = useNavigate();
   const [examList, setExamList] = useState([]);
+  const [ball, setBall] = useState();
+
   const params = useParams();
 
   useEffect(() => {
@@ -25,7 +27,18 @@ const ExamTest = () => {
         setExamList(res);
         setIsLoading(false);
       });
+      fetch(mainUrl + "exams/total/", {
+        headers: {
+          Authorization: "Bearer " + localStorage.getItem("access"),
+        },
+      })
+        .then((res) => res.json())
+        .then((res) => {
+          setBall(res);
+          setIsLoading(false);
+        });
   }, []);
+  console.log(ball);
   return isLoading ? (
     <Loading />
   ) : (
@@ -36,7 +49,7 @@ const ExamTest = () => {
         Назад
       </Container.Back>
       <Container.Title>
-      Кейс  {" "}
+      Интерактивный кейс   {" "}
         {params.id === "intermediate"
           ? "Средний"
           : params.id === "current"
@@ -62,7 +75,9 @@ const ExamTest = () => {
           </Container.Info>
         )}
       </Container.Wrap>
+      <Container.Title1>Общий балл {ball.total}</Container.Title1>
     </Container>
+
   );
 };
 

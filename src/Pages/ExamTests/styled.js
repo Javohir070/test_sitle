@@ -37,7 +37,9 @@ Container.Title = styled.h1`
   color: var(--backColor);
   margin-left: 20px;
 `;
-
+Container.Title1 = styled.h1`
+  text-align:end;
+`;
 Container.Info = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
