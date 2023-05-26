@@ -33,6 +33,6 @@ Container.Title = styled.div`
   font-size: 22px;
   text-align: start;
   font-weight: 600;
-  color: var(--hoverText);
+  color: black;
   margin-bottom: 10px;
 `;

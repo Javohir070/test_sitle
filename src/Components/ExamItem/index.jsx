@@ -19,7 +19,7 @@ const ExamItem = ({ data }) => {
       if (agreement) {
         localStorage.setItem("choused", "true");
         localStorage.setItem("examId", id);
-        localStorage.setItem("time", "3600000");
+        localStorage.setItem("time", "600000");
         navigate(url);
       }
     }
