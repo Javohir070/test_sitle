@@ -13,6 +13,9 @@ h1,
 h2 {
   font-family: var(--fontFemily);
 }
+.fBnqlj div span {
+  color: black !important;
+}
 body {
   width: 100%;
   height: 100vh;
